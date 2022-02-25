@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect';
 
 export const optionsListSelector = (state) => {
-  return Object.values(state.options.optionsList);
+  return state.options.optionsList;
 };
 
 export const selectedIdsSelector = (state) => {
